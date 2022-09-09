@@ -4,11 +4,22 @@
     overflow: hidden;
     background-image: url("./assets/user.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
 }

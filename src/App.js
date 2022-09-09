@@ -8,13 +8,17 @@ const App = () => {
   return (
     <main className='main'>
 
-      <header style={{display : "flex"}}>
-        <section>
-        <a href={''}>Games</a>
-        <a href={''}>Medias</a>
+      <header style={{display : "flex", width : "100%", padding: "40px", justifyContent : "space-between"}}>
+        <section style = {{fontSize: "1.5rem", color: "white", display : "flex", 
+        justifyContent: "space-between", width: "250px", fontWeight : "100" }}>
+        <a href={''} style= {{fontWeight :"700", color: "white"}}>Games</a>
+        <a href={''} style = {{color : "gray"}}>Medias</a>
         </section>
 
-        <section>
+        <section style = {{display : "flex", 
+        justifyContent: "space-between", 
+        alignItems: "center", 
+        width : "450px", color: "white"}}>
           <span>
           <AiOutlineSetting />
           </span>
