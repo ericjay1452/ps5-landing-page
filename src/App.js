@@ -11,6 +11,7 @@ const App = () => {
       <header style={{display : "flex", width : "100%", padding: "40px", justifyContent : "space-between"}}>
         <section style = {{fontSize: "1.5rem", color: "white", display : "flex", 
         justifyContent: "space-between", width: "250px", fontWeight : "100" }}>
+
         <a href={''} style= {{fontWeight :"700", color: "white"}}>Games</a>
         <a href={''} style = {{color : "gray"}}>Medias</a>
         </section>
@@ -19,23 +20,23 @@ const App = () => {
         justifyContent: "space-between", 
         alignItems: "center", 
         width : "450px", color: "white"}}>
-          <span>
+          <span style={{fontSize : "1.5rem", color : "white"}}>
           <AiOutlineSetting />
           </span>
           
-          <span>
+          <span style={{fontSize : "1.5rem", color : "white"}}>
           <BsSearch />
           </span>
 
-        <span>
+        <span style={{fontSize : "1.5rem", color : "white"}}>
         <HiCog />
         </span>
 
-           <span style = {{display: "block", height : "5rem", width : "5rem"}}>
-            <img src={user} alt='user' />
+           <span style = {{display: "block", height : "50px", width : "50px"}}>
+            <img src={user} alt='user' style={{borderRadius: "50%", objectFit : "cover"}}/>
            </span>
 
-           {/* <span> {new Date()}</span> */}
+           <span style={{fontSize : "1.5rem", color : "white"}}> 11 : 40 pm</span>
         </section>
       </header>
     </main>
