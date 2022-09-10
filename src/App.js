@@ -4,6 +4,7 @@ import {HiCog } from "react-icons/hi"
 import {BsSearch} from "react-icons/bs"
 import { TbLocation } from "react-icons/tb"
 import user from "./assets/user.jpg"
+import spider from "./assets/spider.jpg"
 
 const App = () => {
   return (
@@ -41,10 +42,75 @@ const App = () => {
         </section>
       </header>
 
-      <div>
-        <section>
-          <div>
-            <span><TbLocation /></span>
+      <div style={{ maxWidth : "90%", margin :"0, auto"}}>
+        <section style = {{display : "flex", marginBottom: "250px", position:"relative"}}>
+
+          <div style = {{
+            background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)",
+            width: "100px",
+            height: "100px",
+            borderRadius : "20%",
+            marginRight : "15px",
+            cursor: "pointer",
+            border: "0px solid #576170"
+          }} className= "game-active">
+            <div style = {{fontSize: "2rem"}}><TbLocation /></div>
+          </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover"
+          }}>
+          </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover"
+          }}>
+          </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover"
+          }}>
+          </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover"
+          }}>
           </div>
         </section>
       </div>

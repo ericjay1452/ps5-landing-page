@@ -23,3 +23,27 @@ a {
     text-decoration: none;
     display: block;
 }
+
+.game-active {
+           color : white;
+            overflow: visible;
+            width: 150px;
+            height: 150px;
+            border: 2px solid #576170;
+            display: flex;
+            justify-content: center;
+            align-items : center;
+            position: relative;
+}
+
+/* .game-active::after {
+    content: "More to it";
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    bottom: 05px;
+    right: -110px;
+    z-index: 1;
+} */
