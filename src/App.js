@@ -42,7 +42,7 @@ const App = () => {
         </section>
       </header>
 
-      <div style={{ maxWidth : "90%", margin :"0, auto"}}>
+      <div style={{ maxWidth : "90%", margin :"0, auto", marginLeft : "4rem"}}>
         <section style = {{display : "flex", marginBottom: "250px", position:"relative"}}>
 
           <div style = {{
@@ -67,6 +67,7 @@ const App = () => {
             backgroundSize : "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition : "center",
+            transform: "scale(1.1)",
             objectFit: "cover"
           }}>
           </div>
@@ -81,6 +82,7 @@ const App = () => {
             backgroundSize : "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition : "center",
+            transform: "scale(1.1)",
             objectFit: "cover"
           }}>
           </div>
@@ -95,6 +97,7 @@ const App = () => {
             backgroundSize : "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition : "center",
+            transform: "scale(1.1)",
             objectFit: "cover"
           }}>
           </div>
@@ -109,9 +112,64 @@ const App = () => {
             backgroundSize : "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition : "center",
-            objectFit: "cover"
+            objectFit: "cover",
+            transform: "scale(1.1)",
           }}>
           </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover",
+            transform: "scale(1.1)",
+          }}>
+          </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover",
+            transform: "scale(1.1)",
+          }}>
+          </div>
+
+          <div style = {{
+            background: `url(${spider})`,
+            width: "70px",
+            height: "70px",
+            overflow: "hidden",
+            borderRadius : "20%",
+            marginRight : "15px",
+            backgroundSize : "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition : "center",
+            objectFit: "cover",
+            transform: "scale(1.1)",
+          }}>
+          </div>
+        </section>
+
+        <section style={{width : "50%", marginBottom :"3rem"}}>
+          <span style = {{fontWeight : "300", fontSize: "1.2rem", color: "#8f97aa"}}>
+            Official new from PlayStation 10/09/2022
+          </span>
+          
+          <h1 style = {{fontSize : "3rem", fontWeight: "300", color : "white"}}> Ready for unlimited Games Adventure ?</h1>
+          <p style={{fontSize : "2rem", color: "#8f97aa", fontWeight : "300"}}>Asphalt is preloaded and waiting for you! explore the new capabilities of PS5 and feel the world</p>
         </section>
       </div>
     </main>
