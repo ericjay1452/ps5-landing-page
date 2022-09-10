@@ -173,21 +173,236 @@ const App = () => {
           <p style={{fontSize : "2rem", color: "#8f97aa", fontWeight : "300",padding: "0.5rem"}}>Asphalt is preloaded and waiting for you! explore the new capabilities of PS5 and feel the world...</p>
         </section>
 
-        {/* for video trailers */}
-        <section>
-          <div>
-            <img src={spider} alt='game' />
-
-            <div>
-              <div>
-                <BsPlayCircle />
-              </div>
-              <span>Grand Theft auto</span>
-            </div>
-
-          </div>
-        </section>
       </div>
+
+      {/* for video trailers */}
+      <section style = {{whiteSpace: "nowrap", overflowX: "scroll",overflowY: "hidden", paddingLeft: "5%",}}>
+         
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+
+         <div style={{position : "relative",
+          display: "inline-block",
+          whiteSpace: "nowrap",
+          width : "150px", 
+          height : "100px",
+          marginRight : "20px",
+          opacity : "1",
+          cursor: "pointer",
+          marginBottom : "1rem",
+          background: "linear-gradient(60deg,rgba(16,25,37,1) 0%, rgba(0, 0, 1) 50%, rgba(16,25,37,1) 100%)"}}>
+           <img src={spider} alt='game' style={{objectFit: "cover", width : "320px", height : "200px", position: "relative"}}/>
+           <div style={{position :"absolute", width : "100%", color : "white", bottom : "-100px", color : "white", padding: "1rem"}}>
+             <div>
+               <BsPlayCircle style={{background : "white",
+             display : 'flex', width : "30px", 
+             height : "30px", 
+             borderRadius: "50%", 
+             justifyContent : "center",
+             alignItems : "center", color: "black", border : "none", marginBottom : "1rem"}}/>
+             </div>
+             <span>Grand Theft auto</span>
+           </div>
+
+         </div>
+       </section>
     </main>
   )
 }
