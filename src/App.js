@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineSetting } from "react-icons/ai"
 import {HiCog } from "react-icons/hi"
 import {BsSearch} from "react-icons/bs"
+import { BsPlayCircle } from "react-icons/bs"
 import { TbLocation } from "react-icons/tb"
 import user from "./assets/user.jpg"
 import spider from "./assets/spider.jpg"
@@ -163,13 +164,28 @@ const App = () => {
           </div>
         </section>
 
-        <section style={{width : "50%", marginBottom :"3rem"}}>
-          <span style = {{fontWeight : "300", fontSize: "1.2rem", color: "#8f97aa"}}>
+        <section style={{width : "60%", marginBottom :"3rem"}}>
+          <span style = {{fontWeight : "300", fontSize: "1.2rem", color: "#8f97aa", display:"block", padding: "0.5rem"}}>
             Official new from PlayStation 10/09/2022
           </span>
           
-          <h1 style = {{fontSize : "3rem", fontWeight: "300", color : "white"}}> Ready for unlimited Games Adventure ?</h1>
-          <p style={{fontSize : "2rem", color: "#8f97aa", fontWeight : "300"}}>Asphalt is preloaded and waiting for you! explore the new capabilities of PS5 and feel the world</p>
+          <h1 style = {{fontSize : "3rem", fontWeight: "300", color : "white",padding: "0.5rem"}}> Ready for Games Adventure ?</h1>
+          <p style={{fontSize : "2rem", color: "#8f97aa", fontWeight : "300",padding: "0.5rem"}}>Asphalt is preloaded and waiting for you! explore the new capabilities of PS5 and feel the world...</p>
+        </section>
+
+        {/* for video trailers */}
+        <section>
+          <div>
+            <img src={spider} alt='game' />
+
+            <div>
+              <div>
+                <BsPlayCircle />
+              </div>
+              <span>Grand Theft auto</span>
+            </div>
+
+          </div>
         </section>
       </div>
     </main>
