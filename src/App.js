@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineSetting } from "react-icons/ai"
 import {HiCog } from "react-icons/hi"
 import {BsSearch} from "react-icons/bs"
+import { TbLocation } from "react-icons/tb"
 import user from "./assets/user.jpg"
 
 const App = () => {
@@ -32,13 +33,21 @@ const App = () => {
         <HiCog />
         </span>
 
-           <span style = {{display: "block", height : "50px", width : "50px"}}>
+           <span style = {{display: "block", height : "40px", width : "40px"}}>
             <img src={user} alt='user' style={{borderRadius: "50%", objectFit : "cover"}}/>
            </span>
 
            <span style={{fontSize : "1.5rem", color : "white"}}> 11 : 40 pm</span>
         </section>
       </header>
+
+      <div>
+        <section>
+          <div>
+            <span><TbLocation /></span>
+          </div>
+        </section>
+      </div>
     </main>
   )
 }
